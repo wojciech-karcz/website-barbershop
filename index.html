@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Zilla+Slab:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon"  href="images/icon.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/> <!-- animations library || https://github.com/michalsnik/aos -->
+    <title>Barbershop</title>
+</head>
+<body>
+    <div class="header">
+        <div class="headerWrapper">
+            <a href="index.html"><img id="logo" src="images/logo.png"></a>
+            <div class="menu"> 
+                <p><a href="#about">about</a></p> <p><a href="#offer">services</a></p> <p><a href="#contact">contact</a></p> <p><a href="#gallery">gallery</a></p>
+            </div>
+            <div class="hamburgerButton"></div>
+        </div>
+    </div>
+    <div class="hamburgerMenu" style="display: none;">
+        <span><a href="#about" class="hamburgerLink">about</a></span> 
+        <span><a href="#offer" class="hamburgerLink">services</a></span> 
+        <span><a href="#contact" class="hamburgerLink">contact</a></span> 
+        <span><a href="#gallery" class="hamburgerLink">gallery</a></span>
+    </div>
+    <div class="content">
+        <div class="contentWrapper">
+            <section class="banner">
+                <div class="bannerWrapper">
+                    <h1>Barbershop</h1>
+                    <h2>John Smith's</h2>
+                </div>
+            </section>
+            <section id="about">
+                <div class="aboutWrapper">
+                    <div class="aboutText">
+                        <h3>About us</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, expedita est quia culpa veritatis eos dicta nam hic. Quasi magnam nemo nisi rerum eius repellendus fuga adipisci officiis odit perspiciatis commodi necessitatibus et, repellat in neque? Hic laudantium nobis, a quasi sint repudiandae in tempore rem quisquam culpa voluptate inventore eveniet sed, ratione esse rerum. Fugiat sequi praesentium ea saepe architecto. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae obcaecati deserunt adipisci vitae beatae vero, neque repellat qui doloribus reiciendis quasi temporibus molestias ipsam.</p>
+                    </div>
+                    <div class="aboutInfo">
+                        <img src="images/icon.png">
+                        <div class="openingHours">
+                            <h4>Opening Hours</h4>
+                            <p>Monday - Friday</p>
+                            <p>8 - 16</p>
+                        </div>
+                        <div class="adress">
+                            <h4>Adress</h4>
+                            <p>Houston, Texas</p>
+                            <p>54 Broken Dreams Blvd.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="offer">
+                <div class="offerWrapper">
+                    <h3>Our offer</h3>
+                    <div class="offerDetails">
+                        <div class="offerModule" id="cuts">
+                            <div>
+                                <h4>Best cuts</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, cupiditate necessitatibus fugit culpa non unde exercitationem laboriosam sequi quod deserunt magnam ipsum veritatis nisi enim quidem aspernatur minus ipsa eaque eligendi, soluta, error minima consectetur nesciunt! Accusamus assumenda.</p>
+                            </div>
+                        </div>
+                        <div class="offerModule" id="talks">
+                            <div>
+                                <h4>Best talks</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, cupiditate necessitatibus fugit culpa non unde exercitationem laboriosam sequi quod deserunt magnam ipsum veritatis nisi enim quidem aspernatur minus ipsa eaque eligendi, soluta, error minima consectetur nesciunt! Accusamus assumenda.</p>
+                            </div>
+                        </div>
+                        <div class="offerModule" id="drinks">
+                            <div>
+                                <h4>Best drinks</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, cupiditate necessitatibus fugit culpa non unde exercitationem laboriosam sequi quod deserunt magnam ipsum veritatis nisi enim quidem aspernatur minus ipsa eaque eligendi, soluta, error minima consectetur nesciunt! Accusamus assumenda.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="contactWrapper">
+                    <h3>Get in touch with us</h3>
+                    <div class="contactWays">
+                        <div class="formWrapper">
+                            <div class="contactForm">
+                                <input type="text" placeholder="Name">
+                                <input type="email" placeholder="Email">
+                                <textarea placeholder="Your Message" id="message" spellcheck="true"></textarea>
+                                <div>
+                                    <button id="sendButton">Send</button>
+                                    <p id="thankYou">thank you, we'll respond shortly</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="otherWrapper">
+                            <div class="contactTraditional">
+                                <img src="images/icon.png">
+                                <h5>Contact details</h5>
+                                <p>872928123</p>
+                                <p>contact@barbershop.com</p>
+                                <p>Houston, Texas<br>54 Broken Dreams Blvd.</p>
+                            </div>
+                            <div class="contactSocialMedia">
+                                <img src="images/icon.png">
+                                <h5>Social media</h5>
+                                <p><a href="https://www.facebook.com/" target="_blank">Facebook</a></p>
+                                <p><a href="https://www.instagram.com/" target="_blank">Instagram</a></p>
+                                <p><a href="https://twitter.com/" target="_blank">Twitter</a></p>
+                                <p><a href="https://www.linkedin.com/" target="_blank">Linkedin</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section id="gallery">
+                <div class="galleryWrapper">
+                    <div class="galleryHeader">
+                        <h3>Gallery</h3>
+                    </div>
+                    <div class="parent">
+                        <div class="div1"> </div>
+                        <div class="div2"> </div>
+                        <div class="div3"> </div>
+                        <div class="div4"> </div>
+                        <div class="div5"> </div>
+                        <div class="div6"> </div>
+                        <div class="div7"> </div>
+                        <div class="div8"> </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footerWrapper">
+            <p>Barbershop 2023 | &copy; All rights reserved</p>
+            <p>Website by Wojciech Karcz</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
+</body>
+</html>
